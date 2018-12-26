@@ -24,6 +24,7 @@ router.use(function (req,res,next) {
     }
     next()
 })
+cosnole.log(1)
 var json = function(obj) {
     // console.log(obj)
     if(typeof obj.data === 'undefined') {
